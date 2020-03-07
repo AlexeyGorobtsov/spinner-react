@@ -12,3 +12,18 @@ html, body, #root {
     height: 100%;
     width: 100%;
 }
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    background: aquamarine;
+}
+
+button span {
+    padding: 0 8px;
+}
